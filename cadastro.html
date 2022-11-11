@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Area Cadastro</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stylecadastro.css">
+</head>
+<body>
+    <header>
+
+        <div class="container">
+
+        <img src="img/logo_preta.png" alt="logo athena" id="logo-athena">
+    </header>
+
+    <main>
+       
+        <div class="area-login">
+
+            <h2 id="txt-cadastro">Cadastro</h2>
+
+            <form method="post" action="/cadastro">
+
+                <div class="nome">
+                    <input type="text" name="Nome" id="escrita" value="Nome" onfocus="this.value='';">
+                </div>   
+
+                <div class="email">
+                    <input type="text" name="E-mail" id="escrita" value="E-mail" onfocus="this.value='';">
+                </div>
+
+                <div class="senha">
+                    <input type="text" name="Senha" id="escrita" value="Senha" onfocus="this.value='';">
+                </div>
+
+                <div class="confirmar-senha">
+                    <input type="text" name="Confirmar" id="escrita" value="Confirmar senha" onfocus="this.value='';">
+                </div>
+            
+            <div class="termos">
+                <input type="checkbox" id="box">
+                <h2 id="txt-termos"> Concordo com os <a href="">termos de serviço</a>. </h2>
+            </div>
+
+            <a href="index.html">
+                <input type="submit" value="Cadastrar" id="cadastrar">
+            </a>
+            </div>
+        </div>
+
+        </form>
+
+        <div class="icones">
+
+            <div class="google">
+                <img src="img/google.png" alt="logo-google" id="google">
+                Google
+            </div>
+
+            <div class="facebook">
+                <img src="img/facebook.png" alt="logo-facebook" id="facebook">
+                Facebook
+            </div>
+
+        </div>
+    
+        <hr class="linha">
+
+        <div class="login">
+
+            <h4>Já tenho uma conta:</h4>
+
+            <a href="login.html">
+                <input type="submit" value="Entrar" id="entrar">
+            </a>
+
+        </div>
+    </main>
+
+</body>
+</html>

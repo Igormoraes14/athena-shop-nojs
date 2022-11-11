@@ -1,0 +1,174 @@
+/*Font: Josefin Sans googlefonts*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300&display=swap');
+
+
+@media only screen and (max-width: 390px) {
+ 
+    body {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #EBEBEB;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-athena {
+        margin-top: 50px;
+        
+        height: 150px;
+    }
+    
+    .area-login {
+        width: 322px;
+        height: 270px;
+        background-color: #FFB74A;
+        margin-top: 50px;
+        margin-left: 32.5px;
+        text-align: center;
+        border-radius: 15px;
+        padding-top: 20px;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
+    }
+
+    #txt-login{
+        font-size: 200%;
+        font-weight: bold;
+        margin: 0%;
+    }
+
+    #escrita {
+        width: 275px;
+        height: 35px;
+        border-radius: 8px;
+        text-align: left;
+        border: 0px;
+        box-shadow: 0px 5px 15px rgb(246, 177, 72);
+    }
+
+    .email {
+        margin-top: 25px;
+    }
+
+    .senha{
+        margin-top: 25px;
+    }
+
+    #entrar {
+        background-color: #000;
+        color: white;
+        width: 129px;
+        height: 42.15px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border: 0px;
+    }
+
+    #box {
+        width: 20px;
+        height: 20px;
+        border-radius: 15px;
+    }
+
+    .termos {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    #senha-termos{
+        margin-left: 5px;
+    }
+    
+    .icones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .google {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 15px;
+        background-color: white;
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: #FFB74A;
+        border-style: solid;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
+        font-weight: bold;
+    }
+
+
+    .facebook {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: #FFB74A;
+        border-style: solid;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
+        font-weight: bold;
+        color: #1733cc;
+    }
+
+    
+    #google {
+        width: 30px;
+        height: 30px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 20px;
+        margin-left: 5px;
+    }
+
+    #facebook {
+        width: 30px;
+        height: 30px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 20px;
+        margin-left: 5px;
+    }
+
+    #cadastro-fazer {
+        margin-left: 50px;
+    }
+
+    #linha {
+        margin-top: 20px;
+        width: 320px;
+    }
+
+    #cadastrar{
+        margin-left: 130px;
+        margin-top: 50px;
+        background-color: #000;
+        color: white;
+        width: 129px;
+        height: 42.15px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
+        border: 0px;
+    }
+
+}
